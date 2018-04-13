@@ -1,6 +1,5 @@
 import random
 
-#test
 
 buzz = ('continuous testing', 'continuous integration',
     'continuous deployment', 'continuous improvement', 'devops')
