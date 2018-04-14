@@ -1,5 +1,5 @@
 #!/bin/sh
-docker login -e romendiratta@gmail.com -u romendiratta -p asus1996
+docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
 if [ "$TRAVIS_BRANCH" = "master" ]; then
     TAG="latest"
 else
